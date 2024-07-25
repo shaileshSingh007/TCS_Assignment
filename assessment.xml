@@ -1,0 +1,112 @@
+<!-- <?xml version="1.0" encoding="UTF-8"> -->
+<myquestions>
+      <otherdetails>
+         <marks>5</marks>
+         <passmarks>40</passmarks>
+      </otherdetails>
+      <question id="0">
+          <text> Who developed javascript?</text>
+          <option correct="true">brendan Eich</option>
+          <option correct = "false">John smith</option>
+          <option correct = "false">Elon Musk</option>
+          <option correct = "false">Mark Jukerbarg</option>
+      </question>
+      <question id="1">
+          <text> What was initial name of javascript?</text>
+          <option correct = "false">Fecha</option>
+          <option correct = "false">nocha</option>
+          <option correct = "true">mocha</option>
+          <option correct = "false">LiveScript</option>
+      </question>
+      <question id="2">
+          <text> When did javascript standardize?</text>
+          <option correct = "false">1995</option>
+          <option correct = "true">1997</option>
+          <option correct = "false">1999</option>
+          <option correct = "false">1996</option>
+      </question>
+      <question id="3">
+          <text> Which company first introduced javascript?</text>
+          <option correct = "false">Microsoft</option>
+          <option correct = "true">Netscape</option>
+          <option correct = "false">IBM</option>
+          <option correct = "false">ECMA</option>
+      </question>
+      <question id="4">
+          <text> Which of the following is javascript framework?</text>
+          <option correct = "false">Laravel</option>
+          <option correct = "false">Django</option>
+          <option correct = "true">React</option>
+          <option correct = "false">Spring</option>
+      </question>
+      <question id="5">
+          <text> Which version of javascript introduced arrow function?</text>
+          <option correct = "false">ES5</option>
+          <option correct = "false">ES7</option>
+          <option correct = "false">ES3</option>
+          <option correct = "true">ES6</option>
+      </question>
+      <question id="6">
+          <text> Which was the first browser among the following who supported javascript?</text>
+          <option correct = "true">Internet Explorer</option>
+          <option correct = "false">Chrome</option>
+          <option correct = "false">Saffari</option>
+          <option correct = "false">Mozilla Firefox</option>
+      </question>
+      <question id="7">
+          <text> Who is credited for Inventing HyperText Markup Language ( HTML )?</text>
+          <option correct = "false">Mark Andreessen</option>
+          <option correct = "true">Tim Barner Lee</option>
+          <option correct = "false">Vint Cerf</option>
+          <option correct = "false">Brendan Eich</option>
+      </question>
+      <question id="8">
+          <text> What was the primery goal for creating css?</text>
+          <option correct = "false">to enhance html capability to handle multimedia</option>
+          <option correct = "true">To seperate content from presentation</option>
+          <option correct = "false">To improve server side scripting</option>
+          <option correct = "false">To add interective elements to web pages</option>
+      </question>
+      <question id="9">
+          <text> What is the purpose of the `this` keyword in JavaScript?</text>
+          <option correct="false">To declare global variables</option>
+          <option correct="true">To refer to the current object context</option>
+          <option correct="false">To define new functions</option>
+          <option correct="false">To manage asynchronous operations</option>
+      </question>
+      <question id="10">
+          <text> Which of the following is not a primitive data type in JavaScript?</text>
+          <option correct="true">Object</option>
+          <option correct="false">Number</option>
+          <option correct="false">String</option>
+          <option correct="false">Boolean</option>
+      </question>
+      <question id="11">
+          <text> What does JSON stand for in JavaScript?</text>
+          <option correct="false">JavaScript Object Notation</option>
+          <option correct="true">JavaScript Object Notation</option>
+          <option correct="false">JavaScript Oriented Notation</option>
+          <option correct="false">JavaScript Operated Notation</option>
+      </question>
+      <question id="12">
+          <text> What is the primary purpose of the `event delegation` pattern in JavaScript?</text>
+          <option correct="true">To handle events at a higher level in the DOM hierarchy, reducing the number of event listeners</option>
+          <option correct="false">To create new HTML elements dynamically</option>
+          <option correct="false">To perform AJAX requests</option>
+          <option correct="false">To optimize JavaScript performance</option>
+      </question>
+      <question id="13">
+          <text> What does CSS stand for?</text>
+          <option correct="false">Cascading Style Syntax</option>
+          <option correct="false">Computer Style Sheets</option>
+          <option correct="true">Cascading Style Sheets</option>
+          <option correct="false">Centralized Style System</option>
+      </question>
+      <question id="14">
+          <text> What is the purpose of the `meta` tag in HTML?</text>
+          <option correct="false">To define the style of the document</option>
+          <option correct="false">To include external scripts</option>
+          <option correct="true">To provide metadata about the HTML document</option>
+          <option correct="false">To create navigation links</option>
+      </question>
+</myquestions>

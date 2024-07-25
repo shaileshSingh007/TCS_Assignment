@@ -129,7 +129,7 @@ function finalscore(n){
         container.style.display = 'none';
         MarksBoard.style.display='none';
         resultpage.style.display = 'block';
-          (n>=passmarks) ? resultpage.innerHTML = `You have successfullt passed the assessment <br> Obtained ${userscore} marks out of 75 marks <div>Refresh the page to start again</div>` : resultpage.innerHTML = `You have failed the assessment <br> Obtained ${userscore} marks out of 75 marks <div>Refresh the page to start again</div>`;
+          (n>=passmarks) ? resultpage.innerHTML = `You have successfullt passed <br> the assessment <br> ${userscore} / 75 marks <div>Refresh the page to start again</div>` : resultpage.innerHTML = `You have failed <br> the assessment <br> ${userscore} / 75 marks <div>Refresh the page to start again</div>`;
     }
     
 }

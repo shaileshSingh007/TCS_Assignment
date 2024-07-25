@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var resultpage = document.getElementById('resultpage');
     const prevbut = document.getElementById('prev_but');
     const nextbut = document.getElementById('next_but');
+    const MarksBoard = document.getElementById('MarksBoard');
     var Qarray = [];     // array to declare questions indexes
     var myXML;
     var userscore = 0;
@@ -43,6 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
 //  start the assessment
 document.getElementById('start_assess').addEventListener('click',function(){
      container.style.display="block";
+     MarksBoard.style.display='flex';
      start_page.style.display='none';
      shuffle(Qarray);
      console.log(Qarray);
@@ -125,6 +127,7 @@ function finalscore(n){
 
     if(attemptedQ == 0){
         container.style.display = 'none';
+        MarksBoard.style.display='none';
         resultpage.style.display = 'block';
           (n>=passmarks) ? resultpage.innerHTML = `You have successfullt passed the assessment <br> Obtained ${userscore} marks out of 75 marks <div>Refresh the page to start again</div>` : resultpage.innerHTML = `You have failed the assessment <br> Obtained ${userscore} marks out of 75 marks <div>Refresh the page to start again</div>`;
     }

@@ -119,9 +119,9 @@ document.addEventListener('click', function (e) {
 
 function finalscore(n){
     attemptedQ -= 1;
-    document.getElementById('Qleft').innerText = 'Questions pending : '+attemptedQ;
-    document.getElementById('Qright').innerText = 'Questions attempted : '+(15-attemptedQ);
-    document.getElementById('totalMarks').innerText = 'Marks Obtained : '+userscore;
+    document.getElementById('Qleft').innerHTML = `Pending <br> ${attemptedQ}`;
+    document.getElementById('Qright').innerHTML = `Attempted <br> ${15-attemptedQ}`;
+    document.getElementById('totalMarks').innerHTML = `Marks Obtained <br> ${userscore}`;
 
     if(attemptedQ == 0){
         container.style.display = 'none';

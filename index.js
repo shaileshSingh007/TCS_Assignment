@@ -123,7 +123,7 @@ function finalscore(n){
     attemptedQ -= 1;
     document.getElementById('Qleft').innerHTML = `Pending <br> ${attemptedQ}`;
     document.getElementById('Qright').innerHTML = `Attempted <br> ${15-attemptedQ}`;
-    document.getElementById('totalMarks').innerHTML = `Marks Obtained <br> ${userscore}`;
+    document.getElementById('totalMarks').innerHTML = `Marks<br> ${userscore}`;
 
     if(attemptedQ == 0){
         container.style.display = 'none';
